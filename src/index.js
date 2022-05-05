@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import "bootswatch/dist/darkly/bootstrap.min.css";
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
