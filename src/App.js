@@ -27,7 +27,7 @@ function App() {
             className="bg-slate-300 text-black h-screen flex text-white"
           />
           <Route
-            path=""
+            path="/"
             element={
               <ProtectedRoute>
                 <Home
